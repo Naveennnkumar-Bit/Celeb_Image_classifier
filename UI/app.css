@@ -1,0 +1,148 @@
+.card-wrapper {
+  margin: 5% 0;
+}
+
+/* Adjust image size for better responsiveness */
+.custom-circle-image {
+  width: 12vw; /* Increased size slightly for better visibility */
+  height: 12vw;
+  border: 2px solid #ddd;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+.custom-circle-image img {
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.custom-circle-image img:hover {
+  transform: scale(1.1); /* Slight zoom on hover */
+}
+
+.card {
+  background-color: #f9f9f9;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-10px); /* Lift effect on hover */
+}
+
+.card-title {
+  letter-spacing: 1.5px;
+  font-size: 1.2rem;
+  color: #333;
+  font-weight: bold;
+}
+
+.card-text {
+  font-family: "Merriweather", serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #555;
+}
+
+.dropzone {
+  border-style: dashed;
+  border-color: #6c757d;
+  border-width: 2px;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.dropzone:hover {
+  background-color: #e9ecef; /* Slightly darker on hover */
+}
+
+.dropzone .dz-message {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+.error {
+  font-family: "Merriweather", serif;
+  font-size: 1.5rem;
+  color: #ff4d4d; /* Bright red for error messages */
+  text-align: center;
+}
+
+#classTable {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+#classTable td,
+#classTable th {
+  border: 1px solid #ddd;
+  padding: 10px;
+  font-size: 0.9rem;
+}
+
+#classTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 1rem;
+}
+
+#classTable tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#classTable tr:hover {
+  background-color: #ddd; /* Highlight row on hover */
+}
+
+/* For small screens */
+@media (max-width: 768px) {
+  .custom-circle-image {
+    width: 20vw;
+    height: 20vw;
+  }
+
+  .card-title {
+    font-size: 1rem;
+  }
+
+  .card-text {
+    font-size: 0.9rem;
+  }
+
+  #classTable td,
+  #classTable th {
+    font-size: 0.8rem;
+    padding: 5px;
+  }
+
+  #classTable th {
+    font-size: 0.9rem;
+  }
+}
+
+
+/* Navbar Brand Styling */
+.navbar-brand {
+  font-family: 'Merriweather', serif; /* Elegant font for navbar title */
+  font-size: 2rem; /* Size of the navbar brand */
+  font-weight: bold;
+  color: #007bff; /* Match theme color */
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Subtle shadow for better contrast */
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition on hover */
+}
+
+
+
