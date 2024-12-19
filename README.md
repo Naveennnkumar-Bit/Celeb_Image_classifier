@@ -38,7 +38,7 @@ This project involves building a machine learning model to classify images of ce
 
 ### **3. Model Export** 💾
 
-- The trained model is saved using **Joblib** in a pickle file (`saved_model.pickle`), along with a JSON file for class mappings.
+- The trained model is saved using **Joblib** in a pickle file (`saved_model.pkl`), along with a JSON file for class mappings.
 
 ---
 
