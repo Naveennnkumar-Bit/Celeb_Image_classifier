@@ -77,7 +77,6 @@ This project involves building a machine learning model to classify images of ce
 ## **Deployment Options** 🚀
 
 - **Amazon EC2**, **Google Cloud**, and **Heroku** are suggested platforms for deploying the project.
-- Users are encouraged to follow deployment tutorials and adapt them for image classification models.
 
 ---
 
