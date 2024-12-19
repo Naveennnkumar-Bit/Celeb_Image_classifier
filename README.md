@@ -1,6 +1,6 @@
 # **Celebrity Image Classification** 🌟
 
-![Project Preview](./assets/preview-image.png)  <!-- Preview Image Path -->
+![Project Preview](https://github.com/Naveennnkumar-Bit/Celeb_Image_classifier/blob/main/Preview.png)  <!-- Preview Image Path -->
 
 ## **Project Overview**
 
